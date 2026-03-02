@@ -369,3 +369,94 @@ h1, h2{
     grid-template-columns:1fr;
   }
 }
+.site-footer{
+  background:#111;
+  padding:60px 6%;
+  text-align:center;
+}
+
+.footer-content h3{
+  font-family:'Montserrat', sans-serif;
+  margin-bottom:12px;
+}
+
+.footer-content p{
+  margin:6px 0;
+  color:#bbb;
+}
+
+.footer-buttons{
+  margin:20px 0;
+  display:flex;
+  justify-content:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+
+.footer-btn{
+  padding:10px 24px;
+  background:var(--brand);
+  color:#fff;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:600;
+}
+
+.footer-btn:hover{
+  background:#025b34;
+}
+/* ===== Social Proof Section ===== */
+
+.social-proof{
+  padding:80px 6%;
+  background:#1b1b1b;
+  text-align:center;
+}
+
+.social-proof h2{
+  font-family:'Montserrat', sans-serif;
+  margin-bottom:12px;
+}
+
+.social-proof p{
+  color:#bbb;
+  margin-bottom:30px;
+}
+
+.social-links{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.social-btn{
+  padding:12px 28px;
+  border-radius:30px;
+  font-weight:600;
+  text-decoration:none;
+  color:#fff;
+  transition:transform .2s ease, opacity .2s ease;
+}
+
+.social-btn:hover{
+  transform:translateY(-2px);
+  opacity:0.9;
+}
+
+.insta{
+  background:#E4405F;
+}
+
+.facebook{
+  background:#1877F2;
+}
+
+.youtube{
+  background:#FF0000;
+}
+
+.disabled{
+  opacity:0.5;
+  cursor:default;
+}
